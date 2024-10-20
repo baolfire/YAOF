@@ -58,6 +58,8 @@ clone_repo $openwrt_pkg_repo master openwrt_pkg_ma &
 clone_repo $openwrt_add_repo master OpenWrt-Add &
 clone_repo $dockerman_repo master dockerman &
 clone_repo $docker_lib_repo master docker_lib &
+clone_repo $sirpdboy_repo master sirpdboy &
+clone_repo $alist_repo master alist &
 # 等待所有后台任务完成
 wait
 
