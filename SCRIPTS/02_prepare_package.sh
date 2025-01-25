@@ -4,6 +4,7 @@ clear
 ### 基础部分 ###
 # 使用 O2 级别的优化
 sed -i 's/Os/O2/g' include/target.mk
+sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # 更新 Feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
