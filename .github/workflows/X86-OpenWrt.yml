@@ -134,6 +134,6 @@ jobs:
         commit: "24.10"
         replacesArtifacts: true
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: ./artifact/*.zip
+        artifacts: ./artifact/*.gz
     - name: Print Disk Space After
       run: df -h
